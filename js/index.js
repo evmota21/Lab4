@@ -7,6 +7,7 @@ function resetButton(event){
     result.value = "";
     operadores = [];
     digitos = [];
+    stringLog = "";
     input[0].focus();
 }
 function equalsButton(event){
