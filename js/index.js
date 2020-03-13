@@ -21,18 +21,21 @@ function equalsButton(event){
             result.value = digito - digito2;
             console.log({digito});
             console.log({digito2});
+            log.value += "\n" + digito + " " + "- " + digito2 + " = " + result.value;
             break;
         case 3:
             digito2 = Number(input[0].value);
             result.value = digito * digito2;
             console.log({digito});
             console.log({digito2});
+            log.value += "\n" + digito + " " + "* " + digito2 + " = " + result.value;
             break;
         case 4:
             digito2 = Number(input[0].value);
             result.value = digito / digito2;
             console.log({digito});
             console.log({digito2});
+            log.value += "\n" + digito + " " + "/ " + digito2 + " = " + result.value;
             break;
     }
 }
