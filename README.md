@@ -1,0 +1,2 @@
+<h1>This is Enrique Mota Santibañez Lab3!</h1>
+<p>In this lab, the assignment was to practice javascript and we needed to create a calculator on a webpage. This project evaluates the expression without PEMDAS, working with more than 2 operands.</p>
